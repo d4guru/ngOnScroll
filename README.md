@@ -8,13 +8,15 @@ params
 <h3Example</h3> 
 
 <h5>Template</h5>
+<pre>
 <code>
 <div ng-repeat="model in data.list"  on-scroll="loadMore()" on-scroll-distance="0">
   /* display some data */
 </div>
 </code>
-
+</pre>
 <h5>Controller</h5>
+<pre>
 <code>
 angular.module('myApp', ['ng-on-scroll']).
   controller('myCtrl', ['someHttpService', function($scope, someHttpService) {
@@ -27,4 +29,5 @@ angular.module('myApp', ['ng-on-scroll']).
   }
 );
 </code>
+</pre>
 <h2>Enjoy :-)</h2>
