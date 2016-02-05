@@ -2,9 +2,8 @@
 
 <h2>An Angular infinite scroll directive</h2>
 
-<h3>
-The directive takes two parameters
-</h3>
+
+The directive takes two parameters :
 
 ```javascript 
 on-scroll="loadMore()"  //the controller function that populate the list of data
