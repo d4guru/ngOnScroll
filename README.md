@@ -1,6 +1,10 @@
 # ngOnScroll
-<h2>An Angular infinite scroll directive that takes 2 parameters. on-scroll and on-scroll-distance.</h2>
 
+<h2>An Angular infinite scroll directive</h2>
+
+<h4>
+The directive takes two parameters
+</h4>
 
 ```javascript 
 on-scroll="loadMore()"  //the controller function that populate the list of data
