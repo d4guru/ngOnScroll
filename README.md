@@ -1,5 +1,5 @@
 # ngOnScroll
-An Angular infinite scroll directive that takes 2 parameters. on-scroll and on-scroll-distance.
+<h2>An Angular infinite scroll directive that takes 2 parameters. on-scroll and on-scroll-distance.</h2>
 
 
 ```javascript 
