@@ -2,8 +2,9 @@
 Angular infinite scroll directive
 
 params
-```javascript on-scroll="loadMore()"// the controller function that populate the list of data``` 
-```javascript on-scroll-distance="0"</code> // the distance from bottom page where 0 is the closest.``` 
+```javascript on-scroll="loadMore()" => the controller function that populate the list of data``` 
+<br />
+```javascript on-scroll-distance="0" => the distance from the bottom. Where 0 is the closest from bottom.``` 
 
 <h3Example</h3> 
 
