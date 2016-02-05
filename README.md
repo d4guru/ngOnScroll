@@ -2,8 +2,8 @@
 Angular infinite scroll directive
 
 params
-<code>on-scroll="loadMore()"</code> // the controller function that populate the list of data
-<code>on-scroll-distance="0"</code> // 0 is the closest it can get. With 3 loadMore() will be called earlier.
+```javascript on-scroll="loadMore()"// the controller function that populate the list of data``` 
+```javascript on-scroll-distance="0"</code> // the distance from bottom page where 0 is the closest.``` 
 
 <h3Example</h3> 
 
@@ -12,7 +12,7 @@ params
 <div ng-repeat="model in data.list"  on-scroll="loadMore()" on-scroll-distance="0">
   /* display some data */
 </div>
-```
+
 <h5>Controller</h5>
 
 ```javascript
