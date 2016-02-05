@@ -2,9 +2,13 @@
 An Angular infinite scroll directive that takes 2 parameters. on-scroll and on-scroll-distance.
 
 
-```javascript on-scroll="loadMore()" => the controller function that populate the list of data``` 
-<br />
-```javascript on-scroll-distance="0" => the distance from the bottom. Where 0 is the closest from bottom.``` 
+```javascript 
+on-scroll="loadMore()"  //the controller function that populate the list of data
+``` 
+
+```javascript 
+on-scroll-distance="0"  //the distance from the bottom. Where 0 is the closest from bottom.
+``` 
 
 <h3Example</h3> 
 
@@ -19,10 +23,12 @@ An Angular infinite scroll directive that takes 2 parameters. on-scroll and on-s
 ```javascript
 angular.module('myApp', ['ng-on-scroll']).
   controller('myCtrl', ['someHttpService', function($scope, someHttpService) {
-    $scope.data = {};
+    $scope.data = {
+      list : ["item1","item2","item3","item4"]
+    };
     $scope.loadMore = function(){
       someHttpService.loadMore( function( data ){
-        $scope.data.list.push(data);  
+        $scope.data.list.push(data); //item5, item6, item7, etc...  
       } )
     }
   }
