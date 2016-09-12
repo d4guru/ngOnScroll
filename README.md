@@ -17,7 +17,7 @@ on-scroll-distance="0"  //the distance from the bottom. Where 0 is the closest f
 
 <h5>Template</h5>
 ```javascript
-<div ng-repeat="model in data.list"  on-scroll="loadMore()" on-scroll-distance="0">
+<div ng-repeat="model in data.list" ng-on-scroll  on-scroll="loadMore()" on-scroll-distance="0">
   /* display some data */
 </div>
 ```
